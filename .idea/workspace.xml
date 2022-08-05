@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6358e74a-f5ad-4830-ac4f-fdb120c1a3a7" name="Changes" comment="ok">
+      <change afterPath="$PROJECT_DIR$/5/add/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5/add/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/5/js.js" afterDir="false" />
     </list>
@@ -38,15 +43,20 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.js.js (1)">
+    <configuration name="js.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/5/add/js.js" working-dir="$PROJECT_DIR$/5/add">
+      <method v="2" />
+    </configuration>
     <configuration name="js.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/5/js.js" working-dir="$PROJECT_DIR$/5">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.js.js (1)" />
         <item itemvalue="Node.js.js.js" />
       </list>
     </recent_temporary>
@@ -62,7 +72,11 @@
       <workItem from="1659621451225" duration="196000" />
       <workItem from="1659622188996" duration="1285000" />
       <workItem from="1659629737452" duration="1414000" />
-      <workItem from="1659637256754" duration="8875000" />
+      <workItem from="1659637256754" duration="12066000" />
+      <workItem from="1659680043799" duration="970000" />
+      <workItem from="1659684300658" duration="29000" />
+      <workItem from="1659686448832" duration="594000" />
+      <workItem from="1659693037433" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1659621593846</created>
@@ -85,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659638309476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ok">
+      <created>1659646250617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659646250617</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +126,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
