@@ -11,7 +11,7 @@
 let array = [22,1,0,33,0,6,770,88,99,0,1,0,1]
 let nonzero=[]
 let zer0 = []
-let all=[]
+let allItems=[]
 function separate(items) {
     for (let i = 0; i < items.length; i++) {
         const arrayElement = items[i];
@@ -21,7 +21,7 @@ function separate(items) {
             zer0 += arrayElement + ' '
         }
     }
-    return all = nonzero+zer0
+    return allItems = nonzero+zer0
 }
 
 console.log(separate(array))
