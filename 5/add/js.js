@@ -15,9 +15,9 @@
 // function separate(items) {
 //     for (let i = 0; i < items.length; i++) {
 //         const arrayElement = items[i];
-//         if (arrayElement !== 0) {
+//         if (arrayElement) {
 //             nonzero += arrayElement + ' '
-//         } else if (arrayElement === 0) {
+//         } else if (!arrayElement) {
 //             zer0 += arrayElement + ' '
 //         }
 //     }
