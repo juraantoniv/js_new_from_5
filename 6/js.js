@@ -99,22 +99,69 @@
 // });
 // console.log(arrFunk);
 
-let nums = [11,21,3];
-
+// - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
+//     let nums = [11,21,3];
 // sortNums(nums,'ascending') // [3,11,21]
-
-let sortNums = nums.sort((u1, u2) => {
-    return u2 - u1;
-});
-
-console.log(sortNums);
-
-
 // sortNums(nums,'descending') // [21,11,3]
 
-let sortNums = nums.sort((u1, u2) => {
-    return u1 - u2;
-});
+
+// let nums = [11,21,3];
+//
+// // sortNums(nums,'ascending') // [3,11,21]
+//
+// let sortNums1 = nums.sort((u1, u2) => {
+//     return u2 - u1;
+// });
+//
+// console.log(sortNums1);
+//
+//
+// // sortNums(nums,'descending') // [21,11,3]
+//
+// let sortNums2 = nums.sort((u1, u2) => {
+//     return u1 - u2;
+// });
+//
+//
+// console.log(sortNums2);
 
 
-console.log(sortNums);
+// - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
+//     let str = 'Ревуть воли як ясла повні';
+// let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
+
+
+// let str = 'Ревуть воли як ясла повні';
+//
+// let spl= function(words){
+//     return console.log(words.split(" "))
+// }
+//
+// spl(str)
+
+
+// - Знайти та вивести довижину настипних стрінгових значень
+//  let arr = ['hello world', 'lorem ipsum', 'javascript is cool']
+// console.log(arr[0].length)
+// console.log(arr[1].length)
+// console.log(arr[2].length)
+
+// - Перевести до великого регістру наступні стрінгові значення
+//  let arr = ['hello world', 'lorem ipsum', 'javascript is cool']
+// console.log(arr[0].toUpperCase())
+// console.log(arr[1].toUpperCase())
+// console.log(arr[2].toUpperCase())
+
+// - Перевести до нижнього регістру настипні стрінгові значення
+// 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
+
+//  let arr = ['HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL']
+// console.log(arr[0].toLowerCase())
+// console.log(arr[1].toLowerCase())
+// console.log(arr[2].toLowerCase())
+
+// - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
+
+// let str = ' dirty string  '
+//
+// console.log(str.replaceAll(' ', ''));
