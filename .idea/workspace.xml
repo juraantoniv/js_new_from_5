@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6358e74a-f5ad-4830-ac4f-fdb120c1a3a7" name="Changes" comment="ok" />
+    <list default="true" id="6358e74a-f5ad-4830-ac4f-fdb120c1a3a7" name="Changes" comment="ok">
+      <change afterPath="$PROJECT_DIR$/6/inde.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5/add/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/5/add/js.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,6 +44,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
   }
 }</component>
@@ -71,7 +79,26 @@
       <workItem from="1659680043799" duration="970000" />
       <workItem from="1659684300658" duration="29000" />
       <workItem from="1659686448832" duration="594000" />
-      <workItem from="1659693037433" duration="1204000" />
+      <workItem from="1659693037433" duration="2086000" />
+      <workItem from="1659704946060" duration="11507000" />
+      <workItem from="1659771865393" duration="8539000" />
+      <workItem from="1659785972519" duration="16864000" />
+      <workItem from="1659824839887" duration="715000" />
+      <workItem from="1659825594974" duration="79000" />
+      <workItem from="1659825779740" duration="236000" />
+      <workItem from="1659829293643" duration="901000" />
+      <workItem from="1659860869082" duration="2301000" />
+      <workItem from="1659863731378" duration="121000" />
+      <workItem from="1659864397144" duration="87000" />
+      <workItem from="1659864824120" duration="594000" />
+      <workItem from="1659886887876" duration="1229000" />
+      <workItem from="1659888208696" duration="666000" />
+      <workItem from="1659980138117" duration="1507000" />
+      <workItem from="1659982758666" duration="1227000" />
+      <workItem from="1660022425862" duration="2392000" />
+      <workItem from="1660037131557" duration="892000" />
+      <workItem from="1660047620822" duration="4277000" />
+      <workItem from="1660056039008" duration="4681000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1659621593846</created>
@@ -108,7 +135,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659694246288</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ok">
+      <created>1659694352606</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659694352606</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ok">
+      <created>1659694454972</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659694454972</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ok">
+      <created>1659694492679</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659694492679</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
