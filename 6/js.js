@@ -9,15 +9,15 @@
 // }
 
 
-let cards = [
-    {cardSuit: 'heart', value: '2', color:'black'  },
-    {cardSuit: 'clubs', value: 'Ace', color:'red'  },
-    {cardSuit: 'clubs', value: '9', color:'red' },
-    {cardSuit: 'clubs', value: 'Ace', color:'black'  },
-    {cardSuit: 'heart', value: '10', color:'black'  },
-    {cardSuit: 'clubs', value: 'Queen', color:'red'  },
-
-];
+// let cards = [
+//     {cardSuit: 'heart', value: 2, color:'black'  },
+//     {cardSuit: 'clubs', value: 'Ace', color:'red'  },
+//     {cardSuit: 'clubs', value: 9, color:'red' },
+//     {cardSuit: 'clubs', value: 'Ace', color:'black'  },
+//     {cardSuit: 'heart', value: 10, color:'black'  },
+//     {cardSuit: 'clubs', value: 'Queen', color:'red'  },
+//
+// ];
 //
 // let twoColour=cards.reduce((accumulator, card)=>{
 //     if(card.color==='black'){
@@ -65,8 +65,8 @@ let cards = [
 //-------------------------------------------------------
 // - всі трефи від 9 та більше
 //
-// let filteredCards = cards.filter(value => value.value > 9 || typeof value.value==='string');
-// console.log(filteredCards);
+let filteredCards = cards.filter(value => value.value > 9 || typeof value.value==='string');
+console.log(filteredCards);
 
 //-------------------------------------------------------
 // let coursesAndDurationArray = [
