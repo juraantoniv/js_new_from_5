@@ -64,8 +64,8 @@ let cards = [
 
 //-------------------------------------------------------
 // - всі трефи від 9 та більше
-
-// let filteredCards = cards.filter(value => value.value > 9 && typeof value.value==='string');
+//
+// let filteredCards = cards.filter(value => value.value > 9 || typeof value.value==='string');
 // console.log(filteredCards);
 
 //-------------------------------------------------------
