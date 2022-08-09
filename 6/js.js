@@ -33,9 +33,9 @@
 //-------------------------------------------------------
 
 // let cards = [
-//     {cardSuit: 'heart', value: '6', color:'black'  },
+//     {cardSuit: 'heart', value: 2, color:'black'  },
 //     {cardSuit: 'clubs', value: 'Ace', color:'red'  },
-//     {cardSuit: 'clubs', value: 10, color:'red' },
+//     {cardSuit: 'clubs', value: 9, color:'red' },
 //     {cardSuit: 'clubs', value: 'Ace', color:'black'  },
 //     {cardSuit: 'heart', value: 10, color:'black'  },
 //     {cardSuit: 'clubs', value: 'Queen', color:'red'  },
