@@ -41,26 +41,6 @@
 // console.log(books.reduce((previousValue, currentValue) => previousValue.ganre.length > currentValue.ganre.length ? currentValue : previousValue));
 
 
-// function minARR(arr2) {
-//     let min = arr2[0]
-//     for (let i = 0; i < arr2.length; i++) {
-//         if (min > arr2[i]) {
-//             min = arr2[i]
-//         }
-//         return min
-//     }
-// }
-
-
-
-//  books.forEach(max)
-//
-// console.log(max)
-//
-//
-//
-// let max = books.filter(value => Math.max(value.pages))
-// console.log(max)
 
 //--------------------------------------------------------------------
 
