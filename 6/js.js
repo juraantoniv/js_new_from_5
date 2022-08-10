@@ -19,16 +19,16 @@
 //
 // ];
 //
-// let twoColour=cards.reduce((accumulator, card)=>{
-//     if(card.color==='black'){
-//         accumulator.black.push(card)
-//     } else {
-//         accumulator.red.push(card)
-//     }
-//     return accumulator;
-// },{ red:[],  black:[] });
-//
-// console.log(twoColour)
+let twoColour=cards.reduce((accumulator, card)=>{
+    if(card.color==='black'){
+        accumulator.black.push(card)
+    } else {
+        accumulator.red.push(card)
+    }
+    return accumulator;
+},{ red:[],  black:[] });
+
+console.log(twoColour)
 
 //-------------------------------------------------------
 
