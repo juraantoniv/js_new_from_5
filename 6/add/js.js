@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 //
 // -стоврити масив книжок (назва, кількість сторінок, автори , жанри).
 // -знайти наібльшу книжку.
@@ -15,32 +10,54 @@
 // - вісортувати книжки по кількості сторінок по зростанню
 
 
-let books = [
-    {name: 'Some B;kvnook', pages: 200, autors: ['somename', 'name', 'name', 'name'], ganre: 'aifusdgf'},
-    {name: 'Some Bookd', pages: 300, autors: ['somename', 'name', 'name', 'name', 'name'], ganre: 'aifusdgf'},
-    {name: 'Some Boo;dsk', pages: 400, autors: ['somename'], ganre: 'aifusdgf'},
-    {name: 'Some Book ;ldg d;', pages: 500, autors: ['somename', 'name', 'name'], ganre: 'aifusdgf'},
-    {name: 'Some Boo[sdfk', pages: 100, autors: ['somename', 'name',], ganre: 'aifusdgf'},
-    {name: 'Some Boolsdfk', pages: 250, autors: ['somename', 'name', 'name'], ganre: 'aifusdgf'}
-]
+// let books = [
+//     {name: 'Some B;kvnook', pages: 200, autors: ['somename', 'name', 'name', 'name'], ganre:[ 'aifusdgf']},
+//     {name: 'Some Bookd', pages: 300, autors: ['somename', 'name', 'name', 'name', 'name'], ganre: ['aifusdgf']},
+//     {name: 'Some Boo;dsk', pages: 400, autors: ['somename'], ganre: 'aifusdgf'},
+//     {name: 'Some Book ;ldg d;', pages: 500, autors: ['somename', 'name', 'name'], ganre: ['aifusdgf','lkl','jkkkjj','hkkhh']},
+//     {name: 'Some B', pages: 100, autors: ['somename', 'name',], ganre: ['aifusdgf','jhjhhkk','ghgjgjgjg']},
+//     {name: 'Some Boolsdfk', pages: 250, autors: ['somename', 'name', 'name'], ganre: ['aifusdgf']}
+// ]
 
 
 // -знайти наібльшу книжку.
 
-// let max =function (items){
-//     let max=items.pages[0]
-//     if (max>items.pages){
-//         max=items.pages
+// console.log(books.reduce((previousValue, currentValue) => (previousValue.pages>currentValue.pages)?previousValue:currentValue))
+
+// - знайти книжку/ки з найдовшою назвою
+
+// console.log(books.reduce((previousValue, currentValue) => (previousValue.name.length>currentValue.name.length)?previousValue:currentValue))
+
+// - вісортувати книжки по кількості сторінок по зростанню
+
+// console.log(books.sort((a, b) => a.pages - b.pages));
+
+// - знайти книжку/ки які писали 2 автори
+
+// console.log(books.find(value => value.autors.length === 2));
+
+// - знайти книжку/ки з найбільшою кількістю жанрів
+
+// console.log(books.reduce((previousValue, currentValue) => previousValue.ganre.length > currentValue.ganre.length ? currentValue : previousValue));
+
+
+// function minARR(arr2) {
+//     let min = arr2[0]
+//     for (let i = 0; i < arr2.length; i++) {
+//         if (min > arr2[i]) {
+//             min = arr2[i]
+//         }
+//         return min
 //     }
-//
-//     return max
 // }
-//
+
+
+
 //  books.forEach(max)
 //
 // console.log(max)
-
-
+//
+//
 //
 // let max = books.filter(value => Math.max(value.pages))
 // console.log(max)
@@ -153,17 +170,61 @@ let books = [
 //     - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 // - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. Відсортувати його за допомоги sort
 
-//     - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
-// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. Відсортувати його за допомоги sort
 
-let sortA = function (n){
-    let empty =[]
-    for (let i = 0; i < n; i++) {
-        empty.push(Math.round(Math.random()*100))
-        empty.sort()
+// let sortA = function (n){
+//     let empty =[]
+//     for (let i = 0; i < n; i++) {
+//         empty.push(Math.round(Math.random()*100))
+//         empty.sort()
+//
+//     }
+//      return console.log(empty)
+// }
+//
+// sortA(25)
 
-    }
-     return console.log(empty)
-}
+//-------------------------------------------
 
-sortA(25)
+// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. відфільтрувати  його за допомоги filter, залишивши тільки парні числа (без 0!)
+
+// let sortA = function (n){
+//     let empty =[]
+//     for (let i = 0; i < n; i++) {
+//         empty.push(Math.round(Math.random()*100))
+//         empty.sort()
+//
+//     }
+//     return empty.filter(value =>{
+//         if (value%2===0){
+//            console.log(value)
+//         }
+//     })
+// }
+//
+// sortA(25)
+
+//------------------------------------------
+
+//     - Дано список імен.
+//     let n1 = 'Harry..Potter'
+// let n2 = 'Ron---Whisley'
+// let n3 = 'Hermione__Granger'
+// Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
+// let n1 = 'Harry Potter'
+// let n2 = 'Ron Whisley'
+// let n3 = 'Hermione Granger'
+
+// let n1 = 'Harry..Potter'
+// let n2 = 'Ron---Whisley'
+// let n3 = 'Hermione__Granger'
+//
+//
+// function normalize(a1,a2,a3){
+//     console.log(a1.replaceAll('..', ' '));
+//     console.log(a2.replaceAll('---', ' '));
+//     console.log(a3.replaceAll('__', ' '));
+// }
+//
+// normalize(n1,n2,n3)
+
+//--------------------------------------------
