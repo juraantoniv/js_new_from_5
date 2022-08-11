@@ -215,6 +215,8 @@
 // let val= str.indexOf('@')
 // console.log( str.indexOf('@')!==-1 && !!str.indexOf('.',val+2))
 
+//-----------------------------------------------
+
 // - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
 //     let str = 'Каждый охотник желает знать';
 // document.writeln(delete_characters(str, 7)); // Каждый
