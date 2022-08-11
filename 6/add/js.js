@@ -210,10 +210,10 @@
 //--------------------------------------------
 
 // Створити функцію-валідатор для адрес електронної пошти.
-//
+
 // let str = 'someemail@gmail.com'
 // let val= str.indexOf('@')
-// console.log( str.indexOf('@')!==-1 && !!str.indexOf('.',val+2))
+// console.log( str.indexOf('@')!==-1 && !!str.indexOf('.',val+2)&& val!==0 && str.endsWith('.com'))
 
 //-----------------------------------------------
 
@@ -224,4 +224,5 @@
 // let str = 'Каждый охотник желает знать'
 // let n = 7
 // console.log(str.slice(0,n))
+
 
